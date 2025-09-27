@@ -1,0 +1,28 @@
+<!-- HTML stands for Hyper Text Markup Language
+ 
+HTML :- Structure / layout
+CSS :- Style     cascading style sheet
+JS :- Logic
+HTML describes the structure of a Web page
+<!DOCTYPE html> defines that this document is an HTML5 document
+<html></html>    Everything inside it is considered part of the web page.
+<head>    It contains metadata (data about the page), not visible directly on the webpage. 
+       Things like title, styles, scripts, SEO information, etc., go here.  
+
+<body>      Everything inside <body> is visible to the user in the browser.
+      This is where you add headings, paragraphs, images, links, tables, etc.  
+      
+<meta charset="UTF-8"> makes sure your webpage displays text correctly across different languages and symbols.
+UTF-8 → a universal encoding standard that can represent almost every character in every language (English, Hindi, Chinese, emojis, symbols, etc.).
+
+
+HTML tag :- container for some content or other html tags
+[opening tag <p>   content   </p> closing tag    ] :-  element
+HTML element is everything from the start tag to the end tag:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    respnsiveness of webpage
+
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+       
+-->
