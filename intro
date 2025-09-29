@@ -53,4 +53,71 @@ Subsript and superscript tag
 
 pre tag   used to display text as it is(Without Ignoring spaces and next line)
 
+
+
+page Layout techniques
+Using semantic tags for layout :- elements that clearly describe their meaning
+<header>
+<main>
+<footer>
+
+inside main tag
+Section tag    :- for a section on Page
+
+
+<aside> tag :- extra content on page   like ad
+
+ in anchor tag we can add target = _blank or _main which can open the link in a new tab
+
+
+
+ <div> tag   container used for other html elements
+      it is an block element takes full width  not like inline lement that takes only the width they needed
+
+<span>  tag    also a container used for other html elenets   inline elements
+
+
+
+List in HTML :- represent real life list data.
+1. Unordered(ul)    2. Ordered(ol)
+
+
+Tables :-  Used to represent real life table data.
+<tr>  <td>   <th>
+      <thead>   to wrap table head
+      <tbody>   to wrap table body
+
+
+
+The colspan attribute in <td> or <th> tells a cell to span across multiple columns.
+      
+
+
+Forms in HTML   :- used to collect input from users
+Action in form :- URL/server page where form data will be sent.
+
+Form Element : Text Input
+
+radio Buttons:- Choose one
+Checkbox :- Choose multiple
+
+label :- It improves usability (users can click on the label to focus/select the input).
+
+
+Use id when you need to uniquely identify one element.
+Use class when you want to style/target many elements in the same way.
+
+
+Dropdown :- for dropdown we use select
+
+
+
+iframe tag   :- to show website inside website
+
+
+Video  attributes:-
+controls   
+controls loop  
+autoplay
+
 -->
