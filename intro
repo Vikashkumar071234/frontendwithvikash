@@ -6,7 +6,7 @@ JS :- Logic
 HTML describes the structure of a Web page
 <!DOCTYPE html> defines that this document is an HTML5 document
 <html></html>    Everything inside it is considered part of the web page.
-<head>    It contains metadata (data about the page), not visible directly on the webpage. 
+<head>    It contains metadata (data about data), not visible directly on the webpage. 
        Things like title, styles, scripts, SEO information, etc., go here.  
 
 <body>      Everything inside <body> is visible to the user in the browser.
@@ -24,5 +24,33 @@ HTML element is everything from the start tag to the end tag:
 
 HTML tags are not case sensitive: <P> means the same as <p>.
 
-       
+Most of html elemnets have opening and closing tags with content in between
+Some tags have no content in between ,  eg - <br>
+
+HTML Attributes :- words inside tag that provide additional information about an element
+<p id="intro">Hello World</p>
+<html lang="en">
+
+Heading tag  :- Used to give heading in html page
+6 heading tags
+
+Paragraph tag :- Used to add paragraphs in html page
+
+toggle word rap in setting 
+
+anchor tag :- to add links in pages
+if we give link of other pages of others website that is called absolute link
+like google but if we give link of our pages of website that is called relative link
+
+<br>  for next line   an empty tag
+
+image tag:- used to add images to our pages
+<hr> horizontal ruler
+Subsript and superscript tag
+<sub></sub>
+<sup></sup>
+
+
+pre tag   used to display text as it is(Without Ignoring spaces and next line)
+
 -->
