@@ -138,7 +138,94 @@ used to style HTML document
 
 DOM :- Document object model
 
+css selector = used to select an HTML element for atyling
+body{
+}    here body is selector
+    Types of css selector
+    1. Element selector
+    2. ID selector
+    3.Class Selector
+    
+we can group selecotrs like p, h1{
+}    
 
+p.red{
+}   =   element.class or id can be used like this as a selector
+
+
+*  can be used as a universal selector to select all the elements
+
+*{
+
+}
+inline css has more priority  and at last external has priority
+
+color in css:-
+RGB(red, green, blue)
+hex   hexadecimal color is specified with #RRGGBB
+ex :- #ff0000
+hsl()   it stands for hue, saturation, lightness
+hsl(240, 100%, 50%)
+
+
+background image property:-
+background repeat property:- 
+repeat-x   repeat in horizontal direction
+repeat-y    repeat in vertical direction
+no-repeat
+space
+
+background-size properly:-
+cover:- fits and no space remains   and it does not affects aspect ratio of image
+contain;- fits and image is fully visible
+auto :- display its original size
+
+background-position property:-
+left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center (or just center)
+center bottom
+
+
+
+
+backgorund-attachment property:-
+fixed, scroll
+
+
+background-shorthand property:- we can use multiple property in one time
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+CSS Box Model
+Margin{border{padding{content}padding}border}margin
+
+
+
+total height = height + top/bottom margin + top/bottom border +  top/bottom padding
+
+we can also set like margin: 4px 2px 6px 1px;
+top, right, bottom, left  set accordingly    same also for padding
+
+we can also set like margin:2px 4px;
+2px for top and bottom and 4px for left and right
+
+
+we can also use like margin-left;
+paading-top similarly for all others
+
+border-width:3px;
+border-style:solid;
+border-color:black;
+
+
+margin-collapse
 
 
  -->
