@@ -226,6 +226,43 @@ border-color:black;
 
 
 margin-collapse
+When two margins from different elements overlap, the equivalent margin is the greater of the two. this is called margin-collapse.
 
+
+box-sizing 
+box-sizing:border-box;   it includes padding and border
+contnet-box :-  width = content(only)
+border-box:- width= content+border
+
+
+css display property:-
+used to determine whether an element is treated as a block/inline element
+
+display:inline;   takes only the space required by the element. No linebreaks before and after. setting width/height is not allowed. and also top and bottom margin or padding will not work but left/right will work
+
+display:block;     
+span is only inline all others like div are block element
+
+
+display:inline-block;   similar to inline but setting height, width, margin, and padding is allowed
+
+
+display:none;  item will be removed
+visibility:reserved;      item cant seen but space is reserved
+
+text-align:center;   used to set horizontal alignment of a text    we can also use for left, right 
+
+
+ line-height
+ 
+fonts:- 
+font-family
+
+
+
+
+font-family  and generic family:- 
+font-family  - specific  
+generic-family   -  generic  ;- broad class of similar fonts 
 
  -->
