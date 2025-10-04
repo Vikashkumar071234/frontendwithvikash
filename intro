@@ -265,4 +265,43 @@ font-family  and generic family:-
 font-family  - specific  
 generic-family   -  generic  ;- broad class of similar fonts 
 
+size:- 
+em:- give parents size to me by multiplying
+rem:- give normal text size with multiplying
+
+vw:- viewport width    :- 50% of screens height
+vh :- viewport height
+% :- unit relative to parent element
+
+
+min/max-height/width property
+if we set minimum height and width then normal height and width cant be set
+
+
+
+
+position property:- 
+static,  relative, absolute, fixed,  sticky
+
+
+
+list-style    :--    inside / outside
+
+
+list-style:square inside url('vikash.jpg');
+
+
+
+*********Flex-box :-    **********
+float property   :-  flows the element towards left/right
+
+clear property:- clears float
+
+flex property :- 
+
+justify content:- 
+
+ 
+
+
  -->
