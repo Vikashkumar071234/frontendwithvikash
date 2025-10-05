@@ -301,7 +301,19 @@ flex property :-
 
 justify content:- 
 
+ justify-content:center   used to align in center horizonatlly
+ align-items:center   used to align in center vertically
+
+flex properties for flex children :- 
+ align-self:
+ flex-grow:
+ flex-shrink:
+
+
+
+
+
+ CSS grid :-
+
  
-
-
  -->
