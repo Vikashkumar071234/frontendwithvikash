@@ -315,5 +315,33 @@ flex properties for flex children :-
 
  CSS grid :-
 
+
+
+ css matrix:-
+
+
+
+ transition shorthend:- 
+ transition: width 1s ease-in-out 2s;
+
+
+ animation 
+we can use it to make progress bar
+shorthend:-   animation: widthAnimate 3s ease-in-out 0.5s 4 alternate
  
+
+instead of from and to we can use % values in animations 
+
+@keyframes vikash{
+0%{
+width:20px;}
+50%{
+width:80px;}
+100%{
+width:200px;}
+}
+
+
+
+
  -->

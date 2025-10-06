@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transforms transitions and animations</title>
+    <style>
+        .conatiner{
+            background-color: red;
+            height:455px;
+        }
+        .box{
+            border: 2px solid black;
+            display:inline-block;
+            transform:translate(34px 44px) rotate(0.15turn);
+            /* transform: rotate(0.15turn); */
+            /* transform-origin: 0; */
+            /* transform: scaley(2); */
+            /* transform:scalex(3); */
+            /* transform: skew(4deg, 7deg); */
+/* transform:rotatex(45deg);
+transform: rotatey(30deg);
+transform:rotatez(10deg) */
+
+        }
+
+        
+        img{width:300px; height:150px;
+        transition-property: width;transition-duration: 1s;
+        transition-timing-function: ease-in;
+        transition-delay: 3s;
+    }
+img:hover{
+    width:56px;
+    
+}
+
+        
+    </style>
+    
+</head>
+<body>
+
+    <div class="conatiner">
+        <div class="box">
+           <img id ="myImage" src="https://images.pexels.com/photos/33912025/pexels-photo-33912025.jpeg">
+           <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    myImage.style.width='146px'
+    
+        btn.addEventListener("click", ()=>{
+            if(myImage.style.width==="546px"){
+                myImage.style.width="146px";
+            }
+            else if(myImage.style.width==="146px"){
+                myImage.style.width="546px";
+            }
+            
+        })
+    </script>
+</html>
